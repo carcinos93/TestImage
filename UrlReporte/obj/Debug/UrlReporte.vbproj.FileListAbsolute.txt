@@ -1,0 +1,9 @@
+C:\Users\nrodas\documents\visual studio 2013\Projects\TestImage\UrlReporte\bin\Debug\UrlReporte.exe.config
+C:\Users\nrodas\documents\visual studio 2013\Projects\TestImage\UrlReporte\bin\Debug\UrlReporte.exe
+C:\Users\nrodas\documents\visual studio 2013\Projects\TestImage\UrlReporte\bin\Debug\UrlReporte.pdb
+C:\Users\nrodas\documents\visual studio 2013\Projects\TestImage\UrlReporte\bin\Debug\UrlReporte.xml
+C:\Users\nrodas\documents\visual studio 2013\Projects\TestImage\UrlReporte\obj\Debug\UrlReporte.Resources.resources
+C:\Users\nrodas\documents\visual studio 2013\Projects\TestImage\UrlReporte\obj\Debug\UrlReporte.vbproj.GenerateResource.Cache
+C:\Users\nrodas\documents\visual studio 2013\Projects\TestImage\UrlReporte\obj\Debug\UrlReporte.exe
+C:\Users\nrodas\documents\visual studio 2013\Projects\TestImage\UrlReporte\obj\Debug\UrlReporte.xml
+C:\Users\nrodas\documents\visual studio 2013\Projects\TestImage\UrlReporte\obj\Debug\UrlReporte.pdb
