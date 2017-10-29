@@ -6,12 +6,14 @@ using System.Data.Sql;
 using System.Data;
 using System.Data.SqlClient;
 using System.Collections.Specialized;
+using Dapper;
 namespace WebService.Servicios
 {
     public class DbFactory
     {
-        public static SqlConnection Conn()
+        public static IDbConnection Conn()
         {
+           
             var connectionString = @"Data Source={0};Initial Catalog={1};User ID={2};Password={3}";
             HttpContext context = HttpContext.Current;
             var ip = "";
@@ -27,7 +29,6 @@ namespace WebService.Servicios
             else if (context.Request.HttpMethod == "GET")
             {
                 parametros = context.Request.QueryString;
-   
             }
             ip = parametros["IP"];
             usuario = parametros["USUARIO"];

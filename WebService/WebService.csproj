@@ -73,13 +73,18 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Global.asax" />
     <Content Include="WebService1.asmx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Servicios\DbFactory.cs" />
     <Compile Include="Servicios\Logger.cs" />
+    <Compile Include="Servicios\RespuestaServicio.cs" />
     <Compile Include="WebService1.asmx.cs">
       <DependentUpon>WebService1.asmx</DependentUpon>
       <SubType>Component</SubType>
@@ -87,6 +92,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="packages.config" />
+    <None Include="Properties\PublishProfiles\iis.pubxml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

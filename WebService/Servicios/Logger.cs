@@ -15,7 +15,7 @@ using Newtonsoft.Json;
 using Newtonsoft.Json.Converters;
 using Newtonsoft;
 
-namespace WSCLIN.Servicios
+namespace WebService.Servicios
 {
     public class Logger
     {
